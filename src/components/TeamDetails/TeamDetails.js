@@ -26,8 +26,6 @@ const TeamDetails = () => {
             <div className='team-logo-area'>
                 <img src={teamDetails.strTeamBadge} alt={teamDetails.strTeamLogo} />
             </div>
-            {/* <h2>team name: {idTeam}</h2>
-            <p>team name: {teamDetails.strTeam}</p> */}
             <div className="team-details">
                 <div className="team-info">
                     <Container>
@@ -44,7 +42,7 @@ const TeamDetails = () => {
                             <Col md={6}>
                                 <div className="team-info-img">
                                     {
-                                        (teamDetails.strGender?.toLowerCase() === 'male') ? <img src={genderImg} /> : <img src={genderImg2} />
+                                        (teamDetails.strGender?.toLowerCase() === 'male') ? <img src={genderImg} alt="sorry, image not available"/> : <img src={genderImg2} />
                                     }
                                 </div>
                             </Col>

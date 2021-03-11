@@ -18,9 +18,6 @@ const Teams = (props) => {
                 <Card.Body>
                     <Card.Title>{strTeam}</Card.Title>
                     <Card.Text>Sports type: {strSport} </Card.Text>
-                    <Card.Text>Show details by id: {idTeam} </Card.Text>
-                    {/* <Card.Text>Show details of team <Link to={`/team-details/${idTeam}`}>Show details</Link></Card.Text> */}
-                    {/* <Button variant="dark"><Link to={`/team-details/${idTeam}`}>Explore </Link><FontAwesomeIcon icon={faLongArrowAltRight} /></Button> */}
                     <Link to={`/team-details/${idTeam}`}>
                         <Button variant="primary">Explore Team <FontAwesomeIcon icon={faLongArrowAltRight} /></Button>
                     </Link>
