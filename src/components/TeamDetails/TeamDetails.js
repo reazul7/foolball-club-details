@@ -44,7 +44,7 @@ const TeamDetails = () => {
                             <Col md={6}>
                                 <div className="team-info-img">
                                     {
-                                        (teamDetails.strGender?.toLowerCase() === 'male') ? <img src={genderImg} alt="" /> : <img src={genderImg2} />
+                                        (teamDetails.strGender?.toLowerCase() === 'male') ? <img src={genderImg} /> : <img src={genderImg2} />
                                     }
                                 </div>
                             </Col>
@@ -58,9 +58,9 @@ const TeamDetails = () => {
                     <br />
                 </div>
                 <div className="social-icon">
-                <a href= {`https://${teamDetails.strFacebook}`} target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
-                <a href={`https://${teamDetails.strYoutube}`} target="_blank"><FontAwesomeIcon icon={faYoutube} /></a>
-                <a href={`https://${teamDetails.strTwitter}`} target="_blank"><FontAwesomeIcon icon={faTwitterSquare} /></a>
+                <a href= {`https://${teamDetails.strFacebook}`}><FontAwesomeIcon icon={faFacebookF} /></a>
+                <a href={`https://${teamDetails.strYoutube}`}><FontAwesomeIcon icon={faYoutube} /></a>
+                <a href={`https://${teamDetails.strTwitter}`}><FontAwesomeIcon icon={faTwitterSquare} /></a>
                 
                 </div>
             </div>
