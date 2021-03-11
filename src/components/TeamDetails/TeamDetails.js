@@ -44,7 +44,7 @@ const TeamDetails = () => {
                             <Col md={6}>
                                 <div className="team-info-img">
                                     {
-                                        (teamDetails.strGender?.toLowerCase() == 'male') ? <img src={genderImg} alt="" /> : <img src={genderImg2} />
+                                        (teamDetails.strGender?.toLowerCase() === 'male') ? <img src={genderImg} alt="" /> : <img src={genderImg2} />
                                     }
                                 </div>
                             </Col>
