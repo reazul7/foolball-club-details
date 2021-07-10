@@ -1,6 +1,6 @@
 <h2 align="center">
   Football Club Details<br/>
-  <a href="https://elated-leakey-883833.netlify.app/" target="_blank">Football Club Details Live Website</a>
+  <a href="https://laliga-team.netlify.app/" target="_blank">Live Website</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/readme-img1.png" />
